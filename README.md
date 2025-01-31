@@ -1,3 +1,34 @@
+## Overview
+A basic console-based chess game implemented in C++, allowing two-player chess gameplay with basic move validation.
+
+## Features
+- 8x8 chess board representation
+- Piece movement with basic validation
+- Turn-based gameplay for white and black players
+- Supports standard chess piece types
+- Interactive move input
+
+## How to Play
+1. Enter moves in format: `<start column><start row> to <end column><end row>`
+   - Example: `e2 to e4`
+2. White starts first
+3. Type `exit` to end the game
+
+## Move Validation
+- Checks move boundaries
+- Prevents moving to squares occupied by own pieces
+- Basic movement rules implemented
+
+## Compilation
+```bash
+g++ chess_game.cpp -o chess
+```
+
+
+
+
+
+
 # Chess Game in C++: Detailed Architecture
 
 Code Structure
